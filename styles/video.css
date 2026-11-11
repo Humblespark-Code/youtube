@@ -1,0 +1,120 @@
+ 
+ 
+ .card-container{
+      background-color: red;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: space-around;
+      z-index: 0;
+      }
+   .card{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+  
+
+    .thumbnail{
+      width: 100%;
+    }
+   
+   }
+   .thumbnailA{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 25px;
+      cursor: pointer;
+   }
+   .thumbnailB{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 25px;
+      cursor: pointer;
+   }
+   .thumbnailC{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 25px;
+      cursor: pointer;
+   }
+    
+
+      .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-gap: 10px;
+      }
+      .channel-picture{
+        display: inline-block;
+        width: 50px;
+        border-radius: 25px;
+        vertical-align: top;
+        background-color: gray;
+      }
+      .video-info{
+        display:inline-block;
+        width: 245px;
+      
+      }
+       .profile-picture{
+        width: 60%;
+        border-radius: 30%;
+       }
+       .video-title{
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 15px;
+        cursor: pointer;
+       }
+       .thumbnail-row{
+        margin-bottom: 12px;
+        position: relative;
+       }
+       .video-author,
+       .video-stats{
+        font-size: 14px;
+        color: #606060;
+        margin-top: 0px;
+        margin-bottom: 0px;
+       }
+
+       .video-grid{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+       }
+
+       .video-time{
+        background-color: black;
+        color: whitesmoke;
+        position: absolute;
+        font-weight: 500;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-top: 6px;
+        border-radius: 3px;
+        top: 149px;
+        left: 239px;
+        
+        
+      }
+       .video-preview{
+        position: relative;
+       }
+       .thumbnail-row{
+  position: relative;
+  display: inline-block;
+}
